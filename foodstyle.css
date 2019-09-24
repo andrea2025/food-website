@@ -1,0 +1,70 @@
+body {
+    margin: 0 40px;
+    padding: 0;
+    font-family: 'Rubik',sans-serif;
+}
+a:hover {
+    color: brown;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 2;
+   
+}
+
+.navigation_list {
+    display: flex;
+}
+.nav_items {
+    padding: 1.2em;
+}
+.telephone_detail {
+    margin-top: 30px;
+}
+.image_wrap {
+    background-image: url("img/bg-image.jpg");
+     min-height: 700px;
+    background-size: cover;
+
+}
+
+.image_wrap_text {
+    /* text-align: center; */
+    padding:11em 5em;
+}
+.image_wrap_text > h1 {
+    color: brown;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.image_wrap_text > p {
+    color: crimson;
+    text-transform: capitalize;
+    padding-left: 3em;
+}
+.image_gallery_item  {
+    height: 150px;
+    width: 200px;
+    padding: 0 1.5em;
+}
+.image_gallery {
+    display: flex;
+    justify-content: center;
+}
+.gallery_list_section > h2{
+    text-align: center;
+}
+.image-text {
+    /* padding-left: 4em; */
+    text-align: center;
+}
